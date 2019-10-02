@@ -4,7 +4,7 @@ alert('Hello '+ onlineUser + ' welcome to the guessing game!');
 
 var whatIsHobbie = prompt('Do you know if I like to make Music');
 whatIsHobbie = whatIsHobbie.toLowerCase();
-if(whatIsHobbie === 'yes') {
+if(whatIsHobbie === 'yes' || whatIsHobbie === 'y') {
   // console.log('Awesome you guessed right!'); //
   alert('Awesome you guessed right!');
 } else {
@@ -14,7 +14,7 @@ if(whatIsHobbie === 'yes') {
 
 var otherLanguage = prompt('Other than English do I speak Spanish?');
 otherLanguage = otherLanguage.toLowerCase();
-if(otherLanguage === 'yes') {
+if(otherLanguage === 'yes' || otherLanguage === 'y') {
   // console.log('Gracias! You are correcto!'); //
   alert('Gracias! You are Correcto!');
 } else {
@@ -24,7 +24,7 @@ if(otherLanguage === 'yes') {
 
 var militaryBranch = prompt('Was I in the Army?');
 militaryBranch = militaryBranch.toLowerCase();
-if(militaryBranch === 'no') {
+if(militaryBranch === 'no' || militaryBranch === 'n') {
   // console.log('Hooyah! You are Correct'); //
   alert('Hooyah! You are Correct');
 } else {
@@ -34,7 +34,7 @@ if(militaryBranch === 'no') {
 
 var favoriteFood = prompt('Is Pizza my Favorite?');
 favoriteFood = favoriteFood.toLowerCase();
-if(favoriteFood === 'yes') {
+if(favoriteFood === 'yes' || favoriteFood === 'y') {
   // console.log('Correct!! Pizza is one of the best things in the world! and my Favorite!'); //
   alert('Correct!! Pizza is one of the best things in the world! and my Favorite!');
 } else {
@@ -44,7 +44,7 @@ if(favoriteFood === 'yes') {
 
 var favoriteColor = prompt('Is my Favorite Color Purple?'); 
 favoriteColor = favoriteColor.toLowerCase();
-if(favoriteColor === 'no') {
+if(favoriteColor === 'no' || favoriteColor === 'n') {
   // console.log('Correct! My Favorite Color is Green!'); //
   alert('Correct! My Favorite Color is Green!');
 } else {
