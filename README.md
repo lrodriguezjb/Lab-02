@@ -11,3 +11,8 @@ Added Work Experience
 CSS
 Imported preffered font from google
 Added some more styling
+
+
+Driver: Ran
+Navigator: Leandro
+Spectator: Elh
