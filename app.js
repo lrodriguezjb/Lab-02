@@ -71,6 +71,7 @@ while (i <= 3) {
   }
   else if (userAnswer === '17') {
     alert('Correct!! you Got it right!');
+    counter++;
     break;
   }
   if (i === 3) {
@@ -86,6 +87,7 @@ while (f <= 6) {
   var foodAnswer = prompt('Guess what food from which countries Ive had!');
   if (foodChoice.includes(foodAnswer)){
     alert('Correct!! I Love ' + foodAnswer);
+    counter++;
   } else {
     alert('Not Correct at all');
   }
