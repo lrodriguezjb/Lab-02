@@ -63,13 +63,14 @@ var i = 0;
 while (i <= 3) {
   i++;
   var userAnswer = prompt('Guess a Number');
+  userAnswer = parseInt(userAnswer);
   if (userAnswer > 17) {
     alert('Guessed too high');
   }
   else if (userAnswer < 17) {
     alert('Guessed too low');
   }
-  else if (userAnswer === '17') {
+  else if (userAnswer === 17) {
     alert('Correct!! you Got it right!');
     counter++;
     break;
