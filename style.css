@@ -1,19 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
 h1 {
     color:orangered;
+    text-align: center;
+    font-family: 'Source Code Pro';
 }
 
 h2 {
     color:green;
+    font-family: 'Source Code Pro';
 }
 
 p {
-    color:purple;
+    color: white;
+    font-family: 'Source Code Pro';
 }
 
 body {
-background-color: black;
+height: 100%
 }
 
 html {
-    background-color: greenyellow
+    background-color: black;
+}
+
+li {
+    color: white;
+    font-family: 'Source Code Pro';
 }
